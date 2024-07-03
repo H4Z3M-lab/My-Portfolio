@@ -1,0 +1,137 @@
+img {
+  animation: bounce 2s infinite;
+  margin-top: 20px;
+  border-radius: 200px;
+}
+h2 {
+  font-size: 18px;
+}
+body {
+  background: linear-gradient(to right, slateblue, lightblue);
+  font-family: Trebuchet MS;
+  color: white;
+  text-align: center;
+}
+a {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: slateblue;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+.pages {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: slateblue;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+a:hover {
+  color: rgb(112, 112, 112);
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.05);
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { 
+    transform: translateY(0); 
+  }
+  40% { 
+    transform: translateY(-10px); 
+  }
+  60% { 
+    transform: translateY(-5px); 
+  }
+}
+.links-container {
+  display: flex;
+  justify-content: center;
+}
+.about me text{
+    font-size: 150%;
+}
+.about-me {
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: slateblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.about-me h3 {
+  margin-top: 0;
+}
+.about-me p {
+  margin: 10px 0;
+}
+.about-me a {
+  color: slateblue;
+  text-decoration: none;
+}
+.about-me a:hover {
+  text-decoration: underline;
+}
+.work-experience, .skills {
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: slateblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.work-experience h3, .skills h3 {
+  margin-top: 0;
+}
+.work-experience p, .skills p {
+  margin: 10px 0;
+}
+.work-experience ul, .skills ul {
+  list-style-type: disc;
+  margin: 10px 20px;
+}
+.work-experience h4, .skills h4 {
+  margin: 15px 0 5px;
+}
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.back {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.back i {
+  margin-right: 5px;
+}
+
+/* Hover effect */
+.back:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+.back:hover {
+  animation: bounce 1s infinite;
+}
